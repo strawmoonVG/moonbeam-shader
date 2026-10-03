@@ -1,0 +1,94 @@
+shaders = 12
+
+alias0 = "GammaInput"
+shader0 = shaders/gamma_input.slang
+scale_type0 = source
+scale0 = 1.0
+filter_linear0 = true
+
+alias1 = "BlurPass0"
+shader1 = shaders/blur_downsample.slang
+scale_type1 = source
+scale1 = 0.5
+filter_linear1 = true
+
+alias2 = "BlurPass1"
+shader2 = shaders/blur_downsample.slang
+scale_type2 = source
+scale2 = 0.5
+filter_linear2 = true
+
+alias3 = "BlurPass2"
+shader3 = shaders/blur_downsample.slang
+scale_type3 = source
+scale3 = 0.5
+filter_linear3 = true
+
+alias4 = "BlurPass3"
+shader4 = shaders/blur_downsample.slang
+scale_type4 = source
+scale4 = 0.5
+filter_linear4 = true
+
+alias5 = "BlurPass4"
+shader5 = shaders/blur_downsample.slang
+scale_type5 = source
+scale5 = 0.5
+filter_linear5 = true
+
+alias6 = "BlurPass5"
+shader6 = shaders/blur_downsample.slang
+scale_type6 = source
+scale6 = 0.5
+filter_linear6 = true
+
+alias7 = "BlurPass6"
+shader7 = shaders/blur_downsample.slang
+scale_type7 = source
+scale7 = 0.5
+filter_linear7 = true
+
+alias8 = "BlurComposite"
+shader8 = shaders/blur_composite.slang
+filter_linear8 = true
+scale_type8 = viewport
+scale8 = 1.0
+
+alias9 = "FeedbackSource"
+shader9 = shaders/feedback_source.slang
+scale_type9 = source
+scale9 = 1.0
+filter_linear9 = true
+
+alias10 = "FeedbackGlow"
+shader10 = shaders/feedback_glow.slang
+scale_type10 = source
+scale10 = 1.0
+filter_linear10 = true
+
+shader11 = shaders/glue.slang
+scale_type11 = viewport
+scale11 = 1.0
+filter_linear11 = true
+
+
+
+GAMMA_INPUT = "2.2"
+OFFSET_X = "0.0"
+OFFSET_Y = "0.0"
+BLUR_COMPOSITE_FOCUS = "0.0"
+FEEDBACK_HUE_SHIFT = "9.0"
+FEEDBACK_SOURCE_INPUT = "1.0"
+FEEDBACK_SOURCE_GAIN = "0.7"
+FEEDBACK_GLOW_INPUT = "1.0"
+FEEDBACK_GLOW_GAIN = "0.5"
+
+SOURCE_GAMMA = "1.1"
+SOURCE_GAIN = "3.0"
+SOURCE_FEEDBACK_GAIN = "0.25"
+GLOW_GAIN = "0.75"
+GLOW_FEEDBACK_GAIN = "0.60"
+HUE_CORRECTION = "-9.0"
+CONTRAST = "1.0"
+CLIP_TO_WHITE = "0.20"
+GAMMA_OUTPUT = "2.20"
