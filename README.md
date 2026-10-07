@@ -4,7 +4,7 @@ _A glow & ghosting shader pipeline for vector arcade games in RetroArch_
 
 ## Quick start guide
 
-1. Download the latest release from the [Releases page](https://github.com/strawmoonVG/moonbeam-shader/releases)
+1. Download the [latest release](https://github.com/strawmoonVG/moonbeam-shader/releases/latest/download/moonbeam-shader.7z)
 2. Extract the files anywhere within RetroArch's `shaders` directory, for example, `RetroArch/shaders/shaders_slang/moonbeam/`
 3. In RetroArch, go to **Quick Menu** → **Shaders** → **Load Preset** and select `moonbeam.slangp`
 - (Optional) Experiment with **Quick Menu** → **Shaders** → **Shader Parameters** for customization
